@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Clear terminal",
+			"type": "shell",
+			"command": "cls"
+
+		}
+	]
+}
