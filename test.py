@@ -3,11 +3,8 @@ from vdebugger import *
 def test_console():
     vd("a", "B")
     vd("a", "B")
-    vd("a", "B")
-    vd("b", "EEE")
-    vd("somevar", 3141)
     vd("foo", 123)
-    vd("hoo", {"nope": "yes"})
+  
     vd("blu", {"nope": "nonono"})
     vd("blu", {"nope": "nonono"})
 
@@ -36,7 +33,7 @@ def test_pygame():
 
 
 if __name__ == "__main__":
-    test_pygame()
+    test_console()
     
 
 
